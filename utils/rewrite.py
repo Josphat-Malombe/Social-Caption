@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 HF_API_KEY = os.getenv("HF_TOKEN")
-API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
 
-#API_URL = "https://api-inference.huggingface.co/models/microsoft/Phi-3-mini-4k-instruct"
+API_URL = "https://api-inference.huggingface.co/models/microsoft/Phi-3-mini-4k-instruct"
+
 headers = {"Authorization": f"Bearer {HF_API_KEY}"}
 
 
