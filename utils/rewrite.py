@@ -47,7 +47,7 @@ def rewrite_caption(base_caption: str, platform: str, tone: str) -> str:
 
         return "Unexpected response format from HF API."
     except Exception as e:
-        return f"Hugging Face API error: {str(e)}"
+        return f"Sorry Mate...The system is experiencing a bit of overload...retry!"
 
 
 
